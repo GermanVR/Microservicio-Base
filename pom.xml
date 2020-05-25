@@ -20,16 +20,16 @@
 	<inceptionYear>2020</inceptionYear>
 
 	<organization>
-		<name>German GitHub</name>
-		<url>https://github.com/GermanVR/</url>
+		<name>Everis</name>
+		<url>https://www.everis.com/mexico</url>
 	</organization>
 
 	<developers>
 		<developer>
-			<id>GermanVR</id>
+			<id>180140</id>
 			<name>German Vazquez Renteria</name>
-			<email>german_1241@hotmail.com</email>
-			<organization>Fenix</organization>
+			<email>lvazqure@everis.com</email>
+			<organization>Everis</organization>
 			<timezone>America/Mexico_City</timezone>
 			<roles>
 				<role>Solutions Architect</role>
