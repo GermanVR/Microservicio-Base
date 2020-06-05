@@ -3,7 +3,7 @@ WORKDIR /app
 COPY pom.xml .
 RUN mvn -e -B dependency:resolve
 COPY src ./src
-RUN mvn -e -B package
+RUN mvn -e -B package -DskipTests
 
 
 FROM openjdk:8-alpine
