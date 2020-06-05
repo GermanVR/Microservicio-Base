@@ -9,6 +9,9 @@ public abstract class BusinessRuleException extends SkeletonApiException {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * @param exception
+     */
     public BusinessRuleException(String exception) {
         super(exception);
     }

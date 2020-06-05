@@ -22,7 +22,7 @@ import reactor.core.publisher.Mono;
  * @url https://github.com/GermanVR
  */
 @RestController
-@RequestMapping("/api/demo")
+@RequestMapping("/api/v1")
 @CrossOrigin
 public class SkeletonController {
 
@@ -38,10 +38,9 @@ public class SkeletonController {
         return Mono.just(responseEntity);
     }
 
-    @GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(path = "/status", produces = MediaType.APPLICATION_JSON_VALUE)
     public Mono<ResponseEntity<String>> status() {
-        return Mono.just(responseUtil.successResponseEntity("OK", "Success"));
-
+        return Mono.just(responseUtil.successResponseEntity("UP", "The application Works fine!!!"));
     }
 
 }
